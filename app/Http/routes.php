@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  $flag=0;
+  return view ('Login', compact('flag'));
 });
+Route::post('Menu', 'LoginController@UserAuthentication');
