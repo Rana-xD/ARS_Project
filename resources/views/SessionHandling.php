@@ -1,6 +1,6 @@
 <?php
 
-if(time() - $_SESSION['timestamp'] > 2) { //subtract new timestamp from the old one
+if(time() - $_SESSION['timestamp'] > 30) { //subtract new timestamp from the old one
     ?>
     <script>
         alert('15 Minutes over!');

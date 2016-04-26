@@ -12,9 +12,17 @@
 */
 
 Route::get('/', function () {
-    
-  $flag=0;
-  return view ('Login', compact('flag'));
+    session_start();
+    if(empty($_SESSION['username']))
+    {
+        $flag=0;
+        return view ('Login', compact('flag'));
+    }
+    else
+    {
+        return redirect('/Menu');
+    }
+
 });
 Route::post('/Login', 'LoginController@UserAuthentication');
 Route::get('/Menu','LoginController@Menu');
