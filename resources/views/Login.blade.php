@@ -33,7 +33,7 @@
                   <p class="text-danger text-center">Wrong username and password!</p>
                   @endif
                 </div>
-                <form class="form-horizontal" role="form" action="/Menu" method="post" enctype="multipart/form-data">
+                <form class="form-horizontal" role="form" action="/Login" method="post" enctype="multipart/form-data">
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group">
                         <!-- <label class="control-label col-xs-2" for="id">ID</label> -->

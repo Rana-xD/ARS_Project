@@ -1,3 +1,4 @@
+@include('SessionHandling')
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,10 +43,10 @@
               <div class="col-xs-12">
                 <div class="row">
                   <div class="col-xs-6">
-                      <p style="margin-top:10px;">ID (158279)</p>
+                      <p style="margin-top:10px;">ID ({{$name}})</p>
                   </div>
                   <div class="col-xs-6">
-                      <p class="text-right"><a href="#" class="btn btn-sm btn-danger custom-sm-radius">Logout</a></p>
+                      <p class="text-right"><a href="/Logout" class="btn btn-sm btn-danger custom-sm-radius">Logout</a></p>
                   </div>
                 </div>
               </div>
@@ -53,7 +54,7 @@
           </div>
           <div class="row">
             <div class="menu-btn-wrapper">
-              <a class="btn btn-default btn-block btn-lg custom-md-radius" href="#">Register Application Information </a>
+              <a class="btn btn-default btn-block btn-lg custom-md-radius" href="Test">Register Application Information </a>
               <a class="btn btn-default btn-block btn-lg custom-md-radius" href="#">Search Application</a>
               <a class="btn btn-default btn-block btn-lg custom-md-radius" href="#">Contact </a>
             </div>
