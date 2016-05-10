@@ -14,7 +14,6 @@ class LoginController extends Controller
   public function UserAuthentication(Request $request) {
       DB::beginTransaction();
       try{
-
           $name = $request->name;
           $password = $request->password;
           $password = sha1($password);

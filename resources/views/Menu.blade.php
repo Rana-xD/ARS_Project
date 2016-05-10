@@ -54,7 +54,7 @@
           </div>
           <div class="row">
             <div class="menu-btn-wrapper">
-              <a class="btn btn-default btn-block btn-lg custom-md-radius" href="Test">Register Application Information </a>
+              <a class="btn btn-default btn-block btn-lg custom-md-radius" href="Registration">Register Application Information </a>
               <a class="btn btn-default btn-block btn-lg custom-md-radius" href="#">Search Application</a>
               <a class="btn btn-default btn-block btn-lg custom-md-radius" href="#">Contact </a>
             </div>

@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'local',
+    'default' => 's3',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app'),
+            'root' => base_path(),
         ],
 
         'public' => [
@@ -56,10 +56,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => 'your-key',
-            'secret' => 'your-secret',
-            'region' => 'your-region',
-            'bucket' => 'your-bucket',
+            'key' => 'AKIAICG4XDBOK5CSNAEA',
+            'secret' => 'vGhMh2MusX1NAMvaBbJkgQov2wOlIH+0ss0xdoQa',
+            'region' => 'ap-northeast-1',
+            'bucket' => 'ars.gspi.co.jp',
         ],
 
     ],

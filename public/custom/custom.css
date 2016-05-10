@@ -1,0 +1,232 @@
+.custom-container{
+  width: 900px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.custom-sm-radius{
+  border-radius: 5px;
+}
+.top-menu{
+  padding: 15px 0px 0px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.menu-btn-wrapper{
+  width: 380px;
+  margin: 0 auto;
+  padding: 80px 0px 30px;
+}
+.menu-btn-wrapper a{
+  margin-bottom: 20px;
+}
+.custom-md-radius{
+  border-radius: 8px;
+}
+
+.custom-no-radius{
+  border-radius: 0px !important;
+}
+
+.pad-0{
+  padding: 0px !important;
+}
+
+.no-margin-bottom{
+  margin-bottom: 0px !important;
+}
+
+.no-margin-top{
+  margin-top: 0px !important;
+}
+
+.content-div{
+  padding: 20px 0px;
+  width: 100%;
+  float: left;
+  position: relative;
+
+}
+
+.custom-row-wrapper{
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+.column-1{
+  width: 30%;
+  margin-right: 1%;
+  position: relative;
+  background: #f5f5f5;
+  float: left;
+  min-height: 100%;
+  padding: 13px 20px;
+}
+.column-2{
+  width: 68%;
+  margin-left: 1%;
+  height: 100%;
+  position: relative;
+  display: block;
+  float: left;
+  background: #f5f5f5;
+  padding: 13px 20px;
+}
+
+.column-2 input[type="text"]{
+  width: 220px !important;
+  height: 28px !important;
+}
+
+.content-wrapper p.form-label {
+    position: absolute;
+    margin: 0;
+    top: 34%;
+    left: 23%;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-label{
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.filename-div{
+  float: left;
+  padding: 5px;
+}
+
+label.custom-file-label{
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  width: 100px;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  background-image: linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -o-linear-gradient(top, #f9f9f9, #e3e3e3);
+}
+
+input[type=file].custom-input-file{
+  visibility: hidden; 
+  position: absolute;
+}
+
+.input-file-wrapper {
+    width: 100%;
+    float: left;
+    margin: 5px 0px;
+}
+
+.submitbtn-div{
+  text-align: center;
+  float: left;
+  position: relative;
+  margin: 0 auto;
+}
+
+.confirmbtn{
+  text-align: center;
+  width: 120px;
+  border: 1px solid #2e6da4;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px rgba(255,255,255,0);
+  font-weight: 500;
+  font-size: 11pt;
+}
+
+.custom-table{
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table td, .custom-table th{
+  display: table-cell;
+  border: 1px solid #c4c4c4;
+  padding: 6px 12px;
+  text-align: left;
+}
+
+.custom-table tr{
+  display: table-row;
+}
+
+.custom-table td{
+  background: #fff;
+}
+
+.custom-table th{
+  background: #e4e4e4;
+  font-family: 10px;
+}
+
+.custom-form-section{
+  padding: 9px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  color: #454545;
+  font-size: 10pt;
+  width: 100%;
+  border: 1px solid #f8f8f8;
+  background: #f5f5f5;
+}
+
+.custom-form-section h4{
+  margin: 0px;
+}
+
+.custom-form-container{
+  padding: 20px 0px;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+.form-tab{
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  background-image: linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-image: -o-linear-gradient(top, #f9f9f9, #e3e3e3);
+}
+
+.form-tab-list{
+  float: left;
+  width: 120px;
+}
+
+.form-tab-list input[type='radio']{
+  margin-top: 0;
+}
+
+ .inline-form-element{
+  display: inline;
+  margin-right: 15px;
+  float: left;
+ }

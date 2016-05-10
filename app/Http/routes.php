@@ -24,7 +24,8 @@ Route::get('/', function () {
     }
 
 });
-Route::post('/Login', 'LoginController@UserAuthentication');
-Route::get('/Menu','LoginController@Menu');
+Route::post('Login', 'LoginController@UserAuthentication');
+Route::get('Menu','LoginController@Menu');
 Route::get('Logout','System@Logout');
-
+Route::get('Registration','PostsController@posts');
+Route::post('RequestRegister','FormController@RequestRegister');
